@@ -7,7 +7,7 @@
 ::@setx ATOM_HOME "%CMDER_ROOT%\vendor\Atom"
 @setx ChocolateyInstall "%CMDER_ROOT%\vendor\choco"
 @setx -m ChocolateyInstall "%CMDER_ROOT%\vendor\choco"
-@setx -m HerokuPath "%CMDER_ROOT%\vendor\Heroku" 
+::@setx -m HerokuPath "%CMDER_ROOT%\vendor\Heroku" 
 @echo "need to set UTIL_ROOT to util  
 @setx -m UTIL_ROOT "%CMDER_ROOT%\..\"
 init_personal.bat
@@ -30,6 +30,8 @@ init_personal.bat
 ::set(x?) HOME to %CMDER_ROOT%\.personal\ %HOME
 :: add git to path? 
 
+
+:: add PHP to path if atom extensions still can't do environment variable paths
 
 
 ::RUBY
