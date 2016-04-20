@@ -1,0 +1,27 @@
+netstat: list open connections ports listening (like php xdebug)
+netstat -aon
+
+alias ls='ls | cowsay -f turkey'
+
+groff -Tascii -mm your_file | more
+
+mailcatcher --smtp-port 25
+
+mysql: import from inside console
+mysql create, use table: source dump_file.sql
+
+====ngrok====
+  working host redirection ('rewrite' matches host address)
+    ngrok http -host-header=rewrite site.dev:80
+  ngrok http -host-header=example.com 80
+    for stupid wordpress (expecting a port), hardcoded domains kill it though
+  ngrok http -host-header=localhost:55138 55138
+  
+  
+===_nmap_===
+    
+  
+====npm====
+npm: path prefix config 
+npm config get prefix
+
